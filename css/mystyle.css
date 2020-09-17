@@ -1,0 +1,232 @@
+
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2020-02-25 20:02:54
+ * @version $Id$
+ */
+.cl:after,.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.cl,.clearfix{zoom:1;clear:both\0;overflow: hidden\0;}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+body{
+    background: #f5f5f5;
+}
+a:hover{
+    text-decoration: none;
+}
+.pccon-box{
+    height: 649px;background: url(../images/pc-bg.jpg) no-repeat center;background-size: auto 100%;
+}
+.pccon{
+    max-width: 1270px;margin: 0 auto;padding: 0 15px;
+}
+.pccon-fl{
+    width: 225px;margin-top: 256px;padding: 15px;border-radius: 15px;background: #fff;box-shadow: 5px 5px 2px 4px rgba(24,97,118,.3);overflow: hidden;
+}
+.pccon-fl dt img{
+    width: 195px;height: 195px;
+}
+.pccon-fl dd{
+    margin-top: 3px;text-align: center;font-size: 22px;color: #000;font-weight: bold;
+}
+
+.pccon-fr{
+    width: 813px;
+}
+.pccon-fr .logo-box{
+    width: 534px;margin: 40px auto 0;text-align: center;
+}
+.pccon-fr .logo-box dt{
+    padding-bottom: 18px;margin-bottom: 10px;background: url(../images/line.png) no-repeat center bottom;
+}
+.list-pc-box{
+    height: 310px;margin: 0;padding: 0;padding-left: 10px;padding-top: 13px;margin-top: 18px;background: rgba(230,226,244,.58);border-radius: 15px;list-style: none;
+}
+.list-pc-box li{
+    float: left;padding: 6px 10px 12px 5px;margin-left: 15px;background: url(../images/list-bg.png) no-repeat center;background-size: 100% 100%;
+}
+.list-pc-box li a{
+    display: inline-block;width: 230px;height: 93px;;margin-left: 5px;color: #fff;text-align: center;font-size: 25px;font-weight: 600;
+}
+.list-pc-box li a p{
+    margin-bottom: -5px;margin-top: 20px;font-weight: 600;/*text-shadow:3px 3px 1px rgba(22,124,251,.5)*/
+}
+.firefox-pc-box{
+    padding-left: 20px;
+}
+.firefox-pc-box a{
+    display: inline-block;width: calc(100% - 20px);background: #ed3b71/*rgba(0,0,0,.4)*/;border-radius: 10px;text-align: center;line-height: 67px;font-size: 28px;font-weight: bold;/*text-shadow:3px 3px 1px rgba(22,124,251,.5)*/;vertical-align: middle;color: #fff; 
+}
+.pcdown{
+    position: fixed;right: 0;top: 535px;width: 208px;height: 238px;border: 4px solid rgba(27,156,274,.65);border-radius: 10px;text-align: center;
+}
+.pcdown dl{
+    height: 230px;border: 4px solid rgba(0,0,0,.65);border-radius: 10px;background-color: #fff;
+}
+.pcdown dt{
+    margin-top: 11px;
+}
+.pcdown dt img{
+    width: 164px
+}
+.pcdown dd{
+    margin-top: 5px;font-size: 27px;
+}
+
+.h5con-box{
+    display: none;background: url(../images/h5-bg.jpg) no-repeat top center;background-size: 100% auto;
+}
+.footer{
+    text-align: center;font-size: 14px;font-weight: 600;color: #333333;padding-top: 40px;
+}
+
+.h5con{
+    padding: 0 15px;
+}
+.h5con .head{
+    position: relative;z-index: 1;
+}
+.h5-bg{
+    width: calc(100% + 30px);margin-left: -15px;
+}
+.h5con .logo-box{
+    position: absolute;left: 49%;top: 16%;width: 50%;padding: 40px;padding-bottom: 100px;;background: url(../images/info-bg.png) no-repeat center;background-size: 100% 100%;
+}
+.h5con .logo-box .line{
+    height: 8px;margin: 30px -40px 20px;background: url(../images/line.png) no-repeat center;background-size: 100%;
+}
+.h5con .logo-box img{
+    width: 100%;
+}
+.list-h5-box{
+    position: relative;z-index: 2;margin-top: -105%;
+}
+.list-h5-box ul{
+    padding: 30px;background: rgba(230,226,244,.58);border-radius: 15px;list-style: none;
+}
+.list-h5-box li{
+    float: left;width: 33.33%;;padding: 6px 10px 12px 5px;background: url(../images/list-bg.png) no-repeat right center;background-size: 100% 100%;
+}
+.list-h5-box li a{
+    display: block;padding: 15px 0;margin-left: 5px;color: #fff;text-align: center;font-size: 25px;
+}
+.list-h5-box li a p{
+    margin-bottom: 0;
+}
+.long-local a{
+    display: inline-block;width: 100%;background: #ed3b71/*rgba(0,0,0,.4)*/;border-radius: 10px;text-align: center;line-height: 100px;font-size: 28px;font-weight: bold;/*text-shadow:3px 3px 1px rgba(22,124,251,.5)*/;vertical-align: middle;color: #fff;margin-top: 5px;
+}
+.firefox-h5-box img{
+    width: 100%;margin: 15px 0 10px;
+}
+.firefox-h5-box a{
+    display: block;background: url(https://hrrav.github.io/hrr/images/firefox-h5-bg.png) no-repeat center;background-size: 100% 100%;text-align: center;line-height: 100px;font-size: 28px;font-weight: bold;text-shadow:3px 3px 1px rgba(22,124,251,.5);vertical-align: middle;color: #fff;margin-top: 5px;
+}
+@media screen and (max-width: 1100px){
+    .pccon-fl{
+        width: 190px;margin-top: 300px;
+    }
+    .pccon-fl dt img{
+        width: 160px;height: 160px;
+    }
+    .pccon-fl dd{
+        font-size: 18px;
+    }
+    .pccon-fr{
+        width: 753px;
+    }
+    .pccon-fr .logo-box{
+        margin-top: 70px;
+    }
+    .list-pc-box{
+        height: 290px;
+    }
+    .list-pc-box li a{
+        width: 210px;height: 87px;font-size: 22px;
+    }
+    .firefox-pc-box img{
+        width: 320px;
+    }
+    .firefox-pc-box a{
+        width: 366px;line-height: 57px;
+    }
+    .list-pc-box li a p{
+        margin-top: 18px;
+    }
+}
+@media screen and (max-width: 992px){
+    .pccon-box{
+        display: none;
+    }
+    .h5con-box{
+        display: block; 
+    }
+}
+
+@media screen and (max-width: 768px){
+    .h5con .logo-box{
+        padding: 25px;padding-bottom: 60px;
+    }
+    .h5con .logo-box .line{
+        margin: 20px -25px 15px;
+    }
+    .list-h5-box li{
+        width: 50%;
+    }
+    .firefox-h5-box a,.long-local a{
+        line-height: 80px;
+    }
+}
+@media screen and (max-width: 560px){
+    .h5con .logo-box{
+        top: 17%;padding: 15px;padding-bottom: 40px;
+    }
+    .h5con .logo-box .line{
+        margin: 10px -15px 5px;
+    }
+    .list-h5-box ul{
+        padding: 15px;
+    }
+    .list-h5-box li a{
+        padding: 5px 0;font-size: 18px;
+    }
+    .firefox-h5-box a,.long-local a{
+        line-height: 60px;font-size: 23px;
+    }
+    .firefox-h5-box img{
+        margin: 10px 0 5px;
+    }
+}
+@media screen and (max-width: 390px){
+    .h5con .logo-box{
+        padding-bottom: 30px;
+    }
+    .h5con .logo-box .line{
+        margin: 5px -15px 0px;
+    }
+    .list-h5-box li a{
+        font-size: 15px;
+    }
+    .firefox-h5-box a,.long-local a{
+        line-height: 45px;font-size: 20px;
+    }
+    .firefox-h5-box img{
+        margin: 5px 0 5px;
+    }
+    .footer{
+        padding-top: 110px;
+    }
+}
+@media screen and (max-width: 350px){
+    .firefox-h5-box a,.long-local a{
+        font-size: 16px;font-weight: 600;
+    }
+    .footer{
+        padding-top: 20px;
+    }
+}
